@@ -1,0 +1,36 @@
+.container {
+  max-width: 960px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+.border-top-gray { border-top-color: #adb5bd; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.lh-condensed { line-height: 1.25; }
+
+#bg {
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    height: 500px;
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+#bg>div.container {
+    z-index: 2;
+    position: relative;
+}
+#bg img {
+    width: 100%;
+    background: black;
+    background: #ccc;
+}
+
+.jumbotron {
+  background:rgba(255,255,255,0.7);
+
+ // background-color: transparent;
+}

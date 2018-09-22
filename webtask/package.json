@@ -1,0 +1,16 @@
+{
+  "name": "webtask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "create.js",
+  "scripts": {
+    "start": "wt create --secrets-file ./secrets -w ./create.js"
+  },
+  "author": "Roman Nosov",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "stripe": "^6.11.0",
+    "webtask-tools": "^3.4.0"
+  }
+}
