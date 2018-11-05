@@ -1,0 +1,1 @@
+wt create --secrets-file ./secrets --name customer -w ./customer.js

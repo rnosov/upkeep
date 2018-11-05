@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './Hero';
 import Checkout from './Checkout';
 import {Elements, StripeProvider} from 'react-stripe-elements';
+import Link from '../navigation/Link';
 
 const PUBLIC_KEY = process.env.NODE_ENV === 'production' ? 'pk_live_os3sbyDWWFTtE9jYo2wZmxFA' : 'pk_test_hSjzPzRFC3wnJD2CkT4oGmvG';
 
@@ -31,9 +32,10 @@ class Home extends React.Component {
         <Hero />
         <StripeProvider stripe={this.state.stripe}>
           <Elements>
-            <Checkout promo={this.props.promo}/>
+            <Checkout {...this.props}/>
           </Elements>
-        </StripeProvider>        
+        </StripeProvider> 
+        <Link href="/hazqrc3/">hazqrc3</Link>       
       </div>
     );  
   }

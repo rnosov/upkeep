@@ -26,8 +26,11 @@ function Hero() {
         <div className="mx-4 text-center">             
              {heading('Upkeep', 'Team')}
       <p className="lead"><em>Upkeep Team</em> is an 
-                      innovative gardening service that is focused on hedge trimming. A sort of Uber for hedge trimming.
-                      We're currently operating in West London, UK but plan to expand to other areas both nationally and internationally. </p>
+                       an innovative gardening service that aims to keep your hedge neat and tidy. You can think of us as a kind of Uber for hedge trimming.
+                      We're currently operating in West London area.                 
+                  </p>
+
+
         </div>
       </div>
     </div>
